@@ -1,30 +1,31 @@
 # DataBase
 
-Este projeto Java demonstra como conectar-se a um banco de dados utilizando JDBC, realizar operações básicas e manipular dados de usuários.
+This Java project demonstrates how to connect to a database using JDBC, perform basic operations, and manage user data.
 
-## Estrutura do Projeto
-- `Main.java`: Classe principal para execução do programa.
-- `DBConnection.java`: Gerencia a conexão com o banco de dados e operações relacionadas.
-- `Client.java`: (Descreva a função desta classe, se aplicável.)
+## Project Structure
+- `Main.java`: Main class to run the program.
+- `DBConnection.java`: Manages the database connection and related operations.
+- `Client.java`: (Describe the purpose of this class, if applicable.)
 
-## Como Executar
-1. Certifique-se de ter o Java instalado (JDK 8 ou superior).
-2. Configure o driver JDBC apropriado para seu banco de dados (ex: MySQL, PostgreSQL).
-3. Compile o projeto:
+## How to Run
+1. Make sure you have Java installed (JDK 8 or higher).
+2. Set up the appropriate JDBC driver for your database (e.g., MySQL, PostgreSQL).
+3. Compile the project:
    ```sh
    javac src/*.java
    ```
-4. Execute a classe principal:
+4. Run the main class:
    ```sh
    java -cp src Main
    ```
 
-## Configuração do Banco de Dados
-- Atualize as informações de conexão no arquivo `DBConnection.java` conforme necessário (URL, usuário, senha).
+## Database Configuration
+- Update the connection information in the `DBConnection.java` file as needed (URL, user, password).
 
-## Observações
-- Certifique-se de que o banco de dados esteja em execução antes de iniciar o programa.
-- Adapte as queries SQL conforme o esquema do seu banco de dados.
+## Notes
+- Make sure the database is running before starting the program.
+- Adapt the SQL queries according to your database schema.
 
-## Licença
-Este projeto é apenas para fins educacionais.
+## License
+This project is for educational purposes only.
+
